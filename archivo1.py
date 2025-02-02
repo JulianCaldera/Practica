@@ -7,3 +7,6 @@ z = int(input("Numero de la tabla: "))
 
 print(("¿Hasta que numero quiere la tabla?"))
 x = int(input("Ingrese numero final: "))
+
+for i in range(1,x + 1):
+    print(i * z)
